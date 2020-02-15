@@ -1,0 +1,49 @@
+```{r knitr_setup, echo=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+## Data types
+
+_1) Provide a URL to the dataset._
+# https://www.kaggle.com/osmihelp/osmi-mental-health-in-tech-survey-2017
+
+_2) Explain why you chose this dataset._ 
+#I chose this dataset because I think it could provide interesting quantification of how comfortable people in tech feel discussing and seeking help for their mental health conditions since it is about 700 rows and 123 colums. 
+
+_3) What are the entities in this dataset? How many are there?_
+#The entities are survey responses. Each row represents one person's survey response.
+
+
+_4) How many attributes are there in this dataset?
+#There are 123 attributes in this dataset.
+
+_5) What is the datatype of each attribute (categorical -ordered or unordered-, numeric -discrete or continuous-, datetime, geolocation, other)? Write a short sentence stating how you determined the type of each attribute. Do this for at least 5 attributes, if your dataset contains more than 10 attributes, choose 10 of them to describe._
+
+#1 | # | 
+
+#| Num | Name | Type | Description |
+#|-----|------|------|-------------|
+#| 1 | <name> | <type> | <descr> |
+
+_6) Write R code that loads the dataset using function `read_csv`. Were you able to load the data successfully? If no, why not?_
+
+```{r load_data, message=FALSE}
+library(tidyverse)
+# loading code goes here
+read_csv("https://www.kaggle.com/osmihelp/osmi-mental-health-in-tech-survey-2017/download")
+
+## Wrangling
+
+#1) My pipeline computes... 
+
+#```{r pipeline}
+# pipeline goes here
+```
+
+## Plotting
+
+1) This plot shows... 
+
+```{r plot}
+# plot goes here
+```
